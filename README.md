@@ -1,8 +1,12 @@
 # DNS_Security Implementation Details
 
+## Loading Ollama Models
+
+I have provided the ollama github repository link in the Links folder from where you can load them locally into your system using ollama pull model_name command and ollama list to check if they are present or not.
+
 ## Dataset Preparation
 
-1. You have the raw datasets in the Datasets folder which were converted from pcap files(links in report) through wireshark by filtering only for dns traffic and converted into txt.
+1. You have the raw datasets in the Datasets folder which were converted from pcap files(links provided in the Links Folder) through wireshark by filtering only for dns traffic and converted into txt.
 2. Now, next step is to convert these raw txt files into summaries in natural language so that the LLMs can understand it. There are 2 python files in the Converting_Raw_Data_into_Summary folder where one is specifically for converting the tunneling.txt into its summary while the other transform_pcap.py is for the other 3 raw datasets(amplification,spoofing,benign).
 
 ## Zero And Few Shot Prompting
