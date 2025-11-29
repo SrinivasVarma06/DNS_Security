@@ -1,0 +1,3703 @@
+Frame 1: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:14.775345000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583054.775345000 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 76 bytes (608 bits)
+    Capture Length: 76 bytes (608 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 8.8.8.8
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 62
+    Identification: 0x7083 (28803)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xe0ec [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 8.8.8.8
+User Datagram Protocol, Src Port: 54480, Dst Port: 53
+    Source Port: 54480
+    Destination Port: 53
+    Length: 42
+    Checksum: 0xecca [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (34 bytes)
+Domain Name System (query)
+    Transaction ID: 0x1e8a
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 2: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:14.813184000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583054.813184000 seconds
+    [Time delta from previous captured frame: 0.037839000 seconds]
+    [Time delta from previous displayed frame: 0.037839000 seconds]
+    [Time since reference or first frame: 0.037839000 seconds]
+    Frame Number: 2
+    Frame Length: 121 bytes (968 bits)
+    Capture Length: 121 bytes (968 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 107
+    Identification: 0x5c95 (23701)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xb4ad [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 54480
+    Source Port: 53
+    Destination Port: 54480
+    Length: 87
+    Checksum: 0x9809 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Timestamps]
+        [Time since first frame: 0.037839000 seconds]
+        [Time since previous frame: 0.037839000 seconds]
+    UDP payload (79 bytes)
+Domain Name System (response)
+    Transaction ID: 0x1e8a
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.facebook.com: type CNAME, class IN, cname star-mini.c10r.facebook.com
+            Name: www.facebook.com
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 3447 (57 minutes, 27 seconds)
+            Data length: 17
+            CNAME: star-mini.c10r.facebook.com
+        star-mini.c10r.facebook.com: type A, class IN, addr 31.13.66.36
+            Name: star-mini.c10r.facebook.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 28 (28 seconds)
+            Data length: 4
+            Address: 31.13.66.36
+    [Request In: 1]
+    [Time: 0.037839000 seconds]
+
+Frame 3: 108 bytes on wire (864 bits), 108 bytes captured (864 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:15.426011000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583055.426011000 seconds
+    [Time delta from previous captured frame: 0.612827000 seconds]
+    [Time delta from previous displayed frame: 0.612827000 seconds]
+    [Time since reference or first frame: 0.650666000 seconds]
+    Frame Number: 3
+    Frame Length: 108 bytes (864 bits)
+    Capture Length: 108 bytes (864 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 94
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x514f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 54480
+    Source Port: 53
+    Destination Port: 54480
+    Length: 74
+    Checksum: 0xf40c [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Timestamps]
+        [Time since first frame: 0.650666000 seconds]
+        [Time since previous frame: 0.612827000 seconds]
+    UDP payload (66 bytes)
+Domain Name System (response)
+    Transaction ID: 0x1e8a
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 2]
+            [DNS response retransmission. Original response in frame 2]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.facebook.com: type A, class IN, addr 127.0.1.1
+            Name: www.facebook.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Retransmitted response. Original response in: 2]
+    [Retransmission: True]
+
+Frame 4: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:22.479347000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583062.479347000 seconds
+    [Time delta from previous captured frame: 7.053336000 seconds]
+    [Time delta from previous displayed frame: 7.053336000 seconds]
+    [Time since reference or first frame: 7.704002000 seconds]
+    Frame Number: 4
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 192.168.88.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 60
+    Identification: 0x42d5 (17109)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xc601 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 192.168.88.2
+User Datagram Protocol, Src Port: 63214, Dst Port: 53
+    Source Port: 63214
+    Destination Port: 53
+    Length: 40
+    Checksum: 0xd878 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (32 bytes)
+Domain Name System (query)
+    Transaction ID: 0x6f7f
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type A, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 5: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:22.483885000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583062.483885000 seconds
+    [Time delta from previous captured frame: 0.004538000 seconds]
+    [Time delta from previous displayed frame: 0.004538000 seconds]
+    [Time since reference or first frame: 7.708540000 seconds]
+    Frame Number: 5
+    Frame Length: 90 bytes (720 bits)
+    Capture Length: 90 bytes (720 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.2, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 76
+    Identification: 0x5c96 (23702)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xac30 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.2
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 63214
+    Source Port: 53
+    Destination Port: 63214
+    Length: 56
+    Checksum: 0xe7e1 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 1]
+    [Timestamps]
+        [Time since first frame: 0.004538000 seconds]
+        [Time since previous frame: 0.004538000 seconds]
+    UDP payload (48 bytes)
+Domain Name System (response)
+    Transaction ID: 0x6f7f
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type A, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.google.com: type A, class IN, addr 172.217.3.4
+            Name: www.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 4
+            Address: 172.217.3.4
+    [Request In: 4]
+    [Time: 0.004538000 seconds]
+
+Frame 6: 104 bytes on wire (832 bits), 104 bytes captured (832 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:22.495643000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583062.495643000 seconds
+    [Time delta from previous captured frame: 0.011758000 seconds]
+    [Time delta from previous displayed frame: 0.011758000 seconds]
+    [Time since reference or first frame: 7.720298000 seconds]
+    Frame Number: 6
+    Frame Length: 104 bytes (832 bits)
+    Capture Length: 104 bytes (832 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.2, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 90
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x48b8 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.2
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 63214
+    Source Port: 53
+    Destination Port: 63214
+    Length: 70
+    Checksum: 0x4717 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 1]
+    [Timestamps]
+        [Time since first frame: 0.016296000 seconds]
+        [Time since previous frame: 0.011758000 seconds]
+    UDP payload (62 bytes)
+Domain Name System (response)
+    Transaction ID: 0x6f7f
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 5]
+            [DNS response retransmission. Original response in frame 5]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type A, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.google.com: type A, class IN, addr 127.0.1.1
+            Name: www.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Retransmitted response. Original response in: 5]
+    [Retransmission: True]
+
+Frame 7: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:25.788691000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583065.788691000 seconds
+    [Time delta from previous captured frame: 3.293048000 seconds]
+    [Time delta from previous displayed frame: 3.293048000 seconds]
+    [Time since reference or first frame: 11.013346000 seconds]
+    Frame Number: 7
+    Frame Length: 76 bytes (608 bits)
+    Capture Length: 76 bytes (608 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 8.8.8.8
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 62
+    Identification: 0x7786 (30598)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xd9e9 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 8.8.8.8
+User Datagram Protocol, Src Port: 37782, Dst Port: 53
+    Source Port: 37782
+    Destination Port: 53
+    Length: 42
+    Checksum: 0xd818 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 2]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (34 bytes)
+Domain Name System (query)
+    Transaction ID: 0x7476
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 8: 108 bytes on wire (864 bits), 108 bytes captured (864 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:25.797088000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583065.797088000 seconds
+    [Time delta from previous captured frame: 0.008397000 seconds]
+    [Time delta from previous displayed frame: 0.008397000 seconds]
+    [Time since reference or first frame: 11.021743000 seconds]
+    Frame Number: 8
+    Frame Length: 108 bytes (864 bits)
+    Capture Length: 108 bytes (864 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 94
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x514f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 37782
+    Source Port: 53
+    Destination Port: 37782
+    Length: 74
+    Checksum: 0xdf5a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 2]
+    [Timestamps]
+        [Time since first frame: 0.008397000 seconds]
+        [Time since previous frame: 0.008397000 seconds]
+    UDP payload (66 bytes)
+Domain Name System (response)
+    Transaction ID: 0x7476
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.facebook.com: type A, class IN, addr 127.0.1.1
+            Name: www.facebook.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Request In: 7]
+    [Time: 0.008397000 seconds]
+
+Frame 9: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:25.813851000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583065.813851000 seconds
+    [Time delta from previous captured frame: 0.016763000 seconds]
+    [Time delta from previous displayed frame: 0.016763000 seconds]
+    [Time since reference or first frame: 11.038506000 seconds]
+    Frame Number: 9
+    Frame Length: 121 bytes (968 bits)
+    Capture Length: 121 bytes (968 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 107
+    Identification: 0x5c97 (23703)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xb4ab [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 37782
+    Source Port: 53
+    Destination Port: 37782
+    Length: 87
+    Checksum: 0x99ed [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 2]
+    [Timestamps]
+        [Time since first frame: 0.025160000 seconds]
+        [Time since previous frame: 0.016763000 seconds]
+    UDP payload (79 bytes)
+Domain Name System (response)
+    Transaction ID: 0x7476
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 8]
+            [DNS response retransmission. Original response in frame 8]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.facebook.com: type CNAME, class IN, cname star-mini.c10r.facebook.com
+            Name: www.facebook.com
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 3545 (59 minutes, 5 seconds)
+            Data length: 17
+            CNAME: star-mini.c10r.facebook.com
+        star-mini.c10r.facebook.com: type A, class IN, addr 31.13.74.36
+            Name: star-mini.c10r.facebook.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 4
+            Address: 31.13.74.36
+    [Retransmitted response. Original response in: 8]
+    [Retransmission: True]
+
+Frame 10: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:27.833273000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583067.833273000 seconds
+    [Time delta from previous captured frame: 2.019422000 seconds]
+    [Time delta from previous displayed frame: 2.019422000 seconds]
+    [Time since reference or first frame: 13.057928000 seconds]
+    Frame Number: 10
+    Frame Length: 76 bytes (608 bits)
+    Capture Length: 76 bytes (608 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 8.8.8.8
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 62
+    Identification: 0x77ee (30702)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xd981 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 8.8.8.8
+User Datagram Protocol, Src Port: 33486, Dst Port: 53
+    Source Port: 33486
+    Destination Port: 53
+    Length: 42
+    Checksum: 0x6818 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 3]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (34 bytes)
+Domain Name System (query)
+    Transaction ID: 0xf53e
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 11: 108 bytes on wire (864 bits), 108 bytes captured (864 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:27.843966000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583067.843966000 seconds
+    [Time delta from previous captured frame: 0.010693000 seconds]
+    [Time delta from previous displayed frame: 0.010693000 seconds]
+    [Time since reference or first frame: 13.068621000 seconds]
+    Frame Number: 11
+    Frame Length: 108 bytes (864 bits)
+    Capture Length: 108 bytes (864 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 94
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x514f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 33486
+    Source Port: 53
+    Destination Port: 33486
+    Length: 74
+    Checksum: 0x6f5a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 3]
+    [Timestamps]
+        [Time since first frame: 0.010693000 seconds]
+        [Time since previous frame: 0.010693000 seconds]
+    UDP payload (66 bytes)
+Domain Name System (response)
+    Transaction ID: 0xf53e
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.facebook.com: type A, class IN, addr 127.0.1.1
+            Name: www.facebook.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Request In: 10]
+    [Time: 0.010693000 seconds]
+
+Frame 12: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:27.852573000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583067.852573000 seconds
+    [Time delta from previous captured frame: 0.008607000 seconds]
+    [Time delta from previous displayed frame: 0.008607000 seconds]
+    [Time since reference or first frame: 13.077228000 seconds]
+    Frame Number: 12
+    Frame Length: 121 bytes (968 bits)
+    Capture Length: 121 bytes (968 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 107
+    Identification: 0x5c98 (23704)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xb4aa [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 33486
+    Source Port: 53
+    Destination Port: 33486
+    Length: 87
+    Checksum: 0x14c4 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 3]
+    [Timestamps]
+        [Time since first frame: 0.019300000 seconds]
+        [Time since previous frame: 0.008607000 seconds]
+    UDP payload (79 bytes)
+Domain Name System (response)
+    Transaction ID: 0xf53e
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 11]
+            [DNS response retransmission. Original response in frame 11]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.facebook.com: type CNAME, class IN, cname star-mini.c10r.facebook.com
+            Name: www.facebook.com
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 3594 (59 minutes, 54 seconds)
+            Data length: 17
+            CNAME: star-mini.c10r.facebook.com
+        star-mini.c10r.facebook.com: type A, class IN, addr 31.13.66.36
+            Name: star-mini.c10r.facebook.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 26 (26 seconds)
+            Data length: 4
+            Address: 31.13.66.36
+    [Retransmitted response. Original response in: 11]
+    [Retransmission: True]
+
+Frame 13: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:30.756865000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583070.756865000 seconds
+    [Time delta from previous captured frame: 2.904292000 seconds]
+    [Time delta from previous displayed frame: 2.904292000 seconds]
+    [Time since reference or first frame: 15.981520000 seconds]
+    Frame Number: 13
+    Frame Length: 76 bytes (608 bits)
+    Capture Length: 76 bytes (608 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 8.8.8.8
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 62
+    Identification: 0x7913 (30995)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xd85c [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 8.8.8.8
+User Datagram Protocol, Src Port: 52210, Dst Port: 53
+    Source Port: 52210
+    Destination Port: 53
+    Length: 42
+    Checksum: 0x3613 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 4]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (34 bytes)
+Domain Name System (query)
+    Transaction ID: 0xde1f
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 14: 108 bytes on wire (864 bits), 108 bytes captured (864 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:30.766237000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583070.766237000 seconds
+    [Time delta from previous captured frame: 0.009372000 seconds]
+    [Time delta from previous displayed frame: 0.009372000 seconds]
+    [Time since reference or first frame: 15.990892000 seconds]
+    Frame Number: 14
+    Frame Length: 108 bytes (864 bits)
+    Capture Length: 108 bytes (864 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 94
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x514f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 52210
+    Source Port: 53
+    Destination Port: 52210
+    Length: 74
+    Checksum: 0x3d55 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 4]
+    [Timestamps]
+        [Time since first frame: 0.009372000 seconds]
+        [Time since previous frame: 0.009372000 seconds]
+    UDP payload (66 bytes)
+Domain Name System (response)
+    Transaction ID: 0xde1f
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.facebook.com: type A, class IN, addr 127.0.1.1
+            Name: www.facebook.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Request In: 13]
+    [Time: 0.009372000 seconds]
+
+Frame 15: 121 bytes on wire (968 bits), 121 bytes captured (968 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:30.775929000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583070.775929000 seconds
+    [Time delta from previous captured frame: 0.009692000 seconds]
+    [Time delta from previous displayed frame: 0.009692000 seconds]
+    [Time since reference or first frame: 16.000584000 seconds]
+    Frame Number: 15
+    Frame Length: 121 bytes (968 bits)
+    Capture Length: 121 bytes (968 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 107
+    Identification: 0x5c99 (23705)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xb4a9 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 52210
+    Source Port: 53
+    Destination Port: 52210
+    Length: 87
+    Checksum: 0xde5e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 4]
+    [Timestamps]
+        [Time since first frame: 0.019064000 seconds]
+        [Time since previous frame: 0.009692000 seconds]
+    UDP payload (79 bytes)
+Domain Name System (response)
+    Transaction ID: 0xde1f
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 14]
+            [DNS response retransmission. Original response in frame 14]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.facebook.com: type A, class IN
+            Name: www.facebook.com
+            [Name Length: 16]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.facebook.com: type CNAME, class IN, cname star-mini.c10r.facebook.com
+            Name: www.facebook.com
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 1386 (23 minutes, 6 seconds)
+            Data length: 17
+            CNAME: star-mini.c10r.facebook.com
+        star-mini.c10r.facebook.com: type A, class IN, addr 31.13.66.36
+            Name: star-mini.c10r.facebook.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 39 (39 seconds)
+            Data length: 4
+            Address: 31.13.66.36
+    [Retransmitted response. Original response in: 14]
+    [Retransmission: True]
+
+Frame 16: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:35.247504000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583075.247504000 seconds
+    [Time delta from previous captured frame: 4.471575000 seconds]
+    [Time delta from previous displayed frame: 4.471575000 seconds]
+    [Time since reference or first frame: 20.472159000 seconds]
+    Frame Number: 16
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 8.8.8.8
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 60
+    Identification: 0x7bac (31660)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xd5c5 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 8.8.8.8
+User Datagram Protocol, Src Port: 56789, Dst Port: 53
+    Source Port: 56789
+    Destination Port: 53
+    Length: 40
+    Checksum: 0xd7f3 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 5]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (32 bytes)
+Domain Name System (query)
+    Transaction ID: 0x91b8
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type A, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 17: 104 bytes on wire (832 bits), 104 bytes captured (832 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:35.259520000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583075.259520000 seconds
+    [Time delta from previous captured frame: 0.012016000 seconds]
+    [Time delta from previous displayed frame: 0.012016000 seconds]
+    [Time since reference or first frame: 20.484175000 seconds]
+    Frame Number: 17
+    Frame Length: 104 bytes (832 bits)
+    Capture Length: 104 bytes (832 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 90
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x5153 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 56789
+    Source Port: 53
+    Destination Port: 56789
+    Length: 70
+    Checksum: 0x4692 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 5]
+    [Timestamps]
+        [Time since first frame: 0.012016000 seconds]
+        [Time since previous frame: 0.012016000 seconds]
+    UDP payload (62 bytes)
+Domain Name System (response)
+    Transaction ID: 0x91b8
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type A, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.google.com: type A, class IN, addr 127.0.1.1
+            Name: www.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Request In: 16]
+    [Time: 0.012016000 seconds]
+
+Frame 18: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:35.267679000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583075.267679000 seconds
+    [Time delta from previous captured frame: 0.008159000 seconds]
+    [Time delta from previous displayed frame: 0.008159000 seconds]
+    [Time since reference or first frame: 20.492334000 seconds]
+    Frame Number: 18
+    Frame Length: 90 bytes (720 bits)
+    Capture Length: 90 bytes (720 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 76
+    Identification: 0x5c9a (23706)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xb4c7 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 56789
+    Source Port: 53
+    Destination Port: 56789
+    Length: 56
+    Checksum: 0xe756 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 5]
+    [Timestamps]
+        [Time since first frame: 0.020175000 seconds]
+        [Time since previous frame: 0.008159000 seconds]
+    UDP payload (48 bytes)
+Domain Name System (response)
+    Transaction ID: 0x91b8
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 17]
+            [DNS response retransmission. Original response in frame 17]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type A, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.google.com: type A, class IN, addr 172.217.2.4
+            Name: www.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 267 (4 minutes, 27 seconds)
+            Data length: 4
+            Address: 172.217.2.4
+    [Retransmitted response. Original response in: 17]
+    [Retransmission: True]
+
+Frame 19: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:38.417313000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583078.417313000 seconds
+    [Time delta from previous captured frame: 3.149634000 seconds]
+    [Time delta from previous displayed frame: 3.149634000 seconds]
+    [Time since reference or first frame: 23.641968000 seconds]
+    Frame Number: 19
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 8.8.8.8
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 60
+    Identification: 0x7c7c (31868)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xd4f5 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 8.8.8.8
+User Datagram Protocol, Src Port: 57452, Dst Port: 53
+    Source Port: 57452
+    Destination Port: 53
+    Length: 40
+    Checksum: 0x077d [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 6]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (32 bytes)
+Domain Name System (query)
+    Transaction ID: 0x5f98
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type A, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 20: 104 bytes on wire (832 bits), 104 bytes captured (832 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:38.427344000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583078.427344000 seconds
+    [Time delta from previous captured frame: 0.010031000 seconds]
+    [Time delta from previous displayed frame: 0.010031000 seconds]
+    [Time since reference or first frame: 23.651999000 seconds]
+    Frame Number: 20
+    Frame Length: 104 bytes (832 bits)
+    Capture Length: 104 bytes (832 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 90
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x5153 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 57452
+    Source Port: 53
+    Destination Port: 57452
+    Length: 70
+    Checksum: 0x761b [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 6]
+    [Timestamps]
+        [Time since first frame: 0.010031000 seconds]
+        [Time since previous frame: 0.010031000 seconds]
+    UDP payload (62 bytes)
+Domain Name System (response)
+    Transaction ID: 0x5f98
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type A, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.google.com: type A, class IN, addr 127.0.1.1
+            Name: www.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Request In: 19]
+    [Time: 0.010031000 seconds]
+
+Frame 21: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:38.436135000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583078.436135000 seconds
+    [Time delta from previous captured frame: 0.008791000 seconds]
+    [Time delta from previous displayed frame: 0.008791000 seconds]
+    [Time since reference or first frame: 23.660790000 seconds]
+    Frame Number: 21
+    Frame Length: 90 bytes (720 bits)
+    Capture Length: 90 bytes (720 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 76
+    Identification: 0x5c9b (23707)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xb4c6 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 57452
+    Source Port: 53
+    Destination Port: 57452
+    Length: 56
+    Checksum: 0x18ee [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 6]
+    [Timestamps]
+        [Time since first frame: 0.018822000 seconds]
+        [Time since previous frame: 0.008791000 seconds]
+    UDP payload (48 bytes)
+Domain Name System (response)
+    Transaction ID: 0x5f98
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 20]
+            [DNS response retransmission. Original response in frame 20]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type A, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.google.com: type A, class IN, addr 172.217.0.36
+            Name: www.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 221 (3 minutes, 41 seconds)
+            Data length: 4
+            Address: 172.217.0.36
+    [Retransmitted response. Original response in: 20]
+    [Retransmission: True]
+
+Frame 22: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:46.003791000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583086.003791000 seconds
+    [Time delta from previous captured frame: 7.567656000 seconds]
+    [Time delta from previous displayed frame: 7.567656000 seconds]
+    [Time since reference or first frame: 31.228446000 seconds]
+    Frame Number: 22
+    Frame Length: 70 bytes (560 bits)
+    Capture Length: 70 bytes (560 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 8.8.8.8
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 56
+    Identification: 0x83d4 (33748)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xcda1 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 8.8.8.8
+User Datagram Protocol, Src Port: 57096, Dst Port: 53
+    Source Port: 57096
+    Destination Port: 53
+    Length: 36
+    Checksum: 0x1f9f [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (28 bytes)
+Domain Name System (query)
+    Transaction ID: 0x17b4
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.qq.com: type A, class IN
+            Name: www.qq.com
+            [Name Length: 10]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 23: 96 bytes on wire (768 bits), 96 bytes captured (768 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:46.013684000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583086.013684000 seconds
+    [Time delta from previous captured frame: 0.009893000 seconds]
+    [Time delta from previous displayed frame: 0.009893000 seconds]
+    [Time since reference or first frame: 31.238339000 seconds]
+    Frame Number: 23
+    Frame Length: 96 bytes (768 bits)
+    Capture Length: 96 bytes (768 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 82
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x515b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 57096
+    Source Port: 53
+    Destination Port: 57096
+    Length: 62
+    Checksum: 0x5d17 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 0.009893000 seconds]
+        [Time since previous frame: 0.009893000 seconds]
+    UDP payload (54 bytes)
+Domain Name System (response)
+    Transaction ID: 0x17b4
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.qq.com: type A, class IN
+            Name: www.qq.com
+            [Name Length: 10]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.qq.com: type A, class IN, addr 127.0.1.1
+            Name: www.qq.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Request In: 22]
+    [Time: 0.009893000 seconds]
+
+Frame 24: 165 bytes on wire (1320 bits), 165 bytes captured (1320 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:46.099796000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583086.099796000 seconds
+    [Time delta from previous captured frame: 0.086112000 seconds]
+    [Time delta from previous displayed frame: 0.086112000 seconds]
+    [Time since reference or first frame: 31.324451000 seconds]
+    Frame Number: 24
+    Frame Length: 165 bytes (1320 bits)
+    Capture Length: 165 bytes (1320 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 151
+    Identification: 0x5c9c (23708)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xb47a [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 57096
+    Source Port: 53
+    Destination Port: 57096
+    Length: 131
+    Checksum: 0x0d7b [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 0.096005000 seconds]
+        [Time since previous frame: 0.086112000 seconds]
+    UDP payload (123 bytes)
+Domain Name System (response)
+    Transaction ID: 0x17b4
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 23]
+            [DNS response retransmission. Original response in frame 23]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 4
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.qq.com: type A, class IN
+            Name: www.qq.com
+            [Name Length: 10]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.qq.com: type CNAME, class IN, cname qq.com.edgesuite.net
+            Name: www.qq.com
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 299 (4 minutes, 59 seconds)
+            Data length: 22
+            CNAME: qq.com.edgesuite.net
+        qq.com.edgesuite.net: type CNAME, class IN, cname a1574.b.akamai.net
+            Name: qq.com.edgesuite.net
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 21421 (5 hours, 57 minutes, 1 second)
+            Data length: 17
+            CNAME: a1574.b.akamai.net
+        a1574.b.akamai.net: type A, class IN, addr 129.49.1.73
+            Name: a1574.b.akamai.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 1 (1 second)
+            Data length: 4
+            Address: 129.49.1.73
+        a1574.b.akamai.net: type A, class IN, addr 129.49.1.70
+            Name: a1574.b.akamai.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 1 (1 second)
+            Data length: 4
+            Address: 129.49.1.70
+    [Retransmitted response. Original response in: 23]
+    [Retransmission: True]
+
+Frame 25: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:52.980289000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583092.980289000 seconds
+    [Time delta from previous captured frame: 6.880493000 seconds]
+    [Time delta from previous displayed frame: 6.880493000 seconds]
+    [Time since reference or first frame: 38.204944000 seconds]
+    Frame Number: 25
+    Frame Length: 72 bytes (576 bits)
+    Capture Length: 72 bytes (576 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 8.8.8.8
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 58
+    Identification: 0x88b9 (35001)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xc8ba [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 8.8.8.8
+User Datagram Protocol, Src Port: 33473, Dst Port: 53
+    Source Port: 33473
+    Destination Port: 53
+    Length: 38
+    Checksum: 0x1e32 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 8]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (30 bytes)
+Domain Name System (query)
+    Transaction ID: 0x19ee
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.sita.com: type A, class IN
+            Name: www.sita.com
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 26: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:52.992002000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583092.992002000 seconds
+    [Time delta from previous captured frame: 0.011713000 seconds]
+    [Time delta from previous displayed frame: 0.011713000 seconds]
+    [Time since reference or first frame: 38.216657000 seconds]
+    Frame Number: 26
+    Frame Length: 100 bytes (800 bits)
+    Capture Length: 100 bytes (800 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 86
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x5157 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 33473
+    Source Port: 53
+    Destination Port: 33473
+    Length: 66
+    Checksum: 0x0030 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 8]
+    [Timestamps]
+        [Time since first frame: 0.011713000 seconds]
+        [Time since previous frame: 0.011713000 seconds]
+    UDP payload (58 bytes)
+Domain Name System (response)
+    Transaction ID: 0x19ee
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.sita.com: type A, class IN
+            Name: www.sita.com
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.sita.com: type A, class IN, addr 127.0.1.1
+            Name: www.sita.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Request In: 25]
+    [Time: 0.011713000 seconds]
+
+Frame 27: 88 bytes on wire (704 bits), 88 bytes captured (704 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:34:53.023532000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583093.023532000 seconds
+    [Time delta from previous captured frame: 0.031530000 seconds]
+    [Time delta from previous displayed frame: 0.031530000 seconds]
+    [Time since reference or first frame: 38.248187000 seconds]
+    Frame Number: 27
+    Frame Length: 88 bytes (704 bits)
+    Capture Length: 88 bytes (704 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 74
+    Identification: 0x5c9d (23709)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xb4c6 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 33473
+    Source Port: 53
+    Destination Port: 33473
+    Length: 54
+    Checksum: 0x1684 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 8]
+    [Timestamps]
+        [Time since first frame: 0.043243000 seconds]
+        [Time since previous frame: 0.031530000 seconds]
+    UDP payload (46 bytes)
+Domain Name System (response)
+    Transaction ID: 0x19ee
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 26]
+            [DNS response retransmission. Original response in frame 26]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.sita.com: type A, class IN
+            Name: www.sita.com
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.sita.com: type A, class IN, addr 88.86.109.120
+            Name: www.sita.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 299 (4 minutes, 59 seconds)
+            Data length: 4
+            Address: 88.86.109.120
+    [Retransmitted response. Original response in: 26]
+    [Retransmission: True]
+
+Frame 28: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:05.236493000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583105.236493000 seconds
+    [Time delta from previous captured frame: 12.212961000 seconds]
+    [Time delta from previous displayed frame: 12.212961000 seconds]
+    [Time since reference or first frame: 50.461148000 seconds]
+    Frame Number: 28
+    Frame Length: 72 bytes (576 bits)
+    Capture Length: 72 bytes (576 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 192.168.88.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 58
+    Identification: 0x51ea (20970)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xb6ee [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 192.168.88.2
+User Datagram Protocol, Src Port: 25319, Dst Port: 53
+    Source Port: 25319
+    Destination Port: 53
+    Length: 38
+    Checksum: 0xfc43 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 9]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (30 bytes)
+Domain Name System (query)
+    Transaction ID: 0x4d21
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.yaho.com: type A, class IN
+            Name: www.yaho.com
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 29: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:05.246190000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583105.246190000 seconds
+    [Time delta from previous captured frame: 0.009697000 seconds]
+    [Time delta from previous displayed frame: 0.009697000 seconds]
+    [Time since reference or first frame: 50.470845000 seconds]
+    Frame Number: 29
+    Frame Length: 100 bytes (800 bits)
+    Capture Length: 100 bytes (800 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.2, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 86
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x48bc [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.2
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 25319
+    Source Port: 53
+    Destination Port: 25319
+    Length: 66
+    Checksum: 0xd847 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 9]
+    [Timestamps]
+        [Time since first frame: 0.009697000 seconds]
+        [Time since previous frame: 0.009697000 seconds]
+    UDP payload (58 bytes)
+Domain Name System (response)
+    Transaction ID: 0x4d21
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.yaho.com: type A, class IN
+            Name: www.yaho.com
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.yaho.com: type A, class IN, addr 127.0.1.1
+            Name: www.yaho.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Request In: 28]
+    [Time: 0.009697000 seconds]
+
+Frame 30: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:05.290198000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583105.290198000 seconds
+    [Time delta from previous captured frame: 0.044008000 seconds]
+    [Time delta from previous displayed frame: 0.044008000 seconds]
+    [Time since reference or first frame: 50.514853000 seconds]
+    Frame Number: 30
+    Frame Length: 145 bytes (1160 bits)
+    Capture Length: 145 bytes (1160 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.2, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 131
+    Identification: 0x5c9e (23710)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xabf1 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.2
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 25319
+    Source Port: 53
+    Destination Port: 25319
+    Length: 111
+    Checksum: 0x20c9 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 9]
+    [Timestamps]
+        [Time since first frame: 0.053705000 seconds]
+        [Time since previous frame: 0.044008000 seconds]
+    UDP payload (103 bytes)
+Domain Name System (response)
+    Transaction ID: 0x4d21
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 29]
+            [DNS response retransmission. Original response in frame 29]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.yaho.com: type A, class IN
+            Name: www.yaho.com
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.yaho.com: type CNAME, class IN, cname rc.yahoo.com
+            Name: www.yaho.com
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 11
+            CNAME: rc.yahoo.com
+        rc.yahoo.com: type CNAME, class IN, cname src.g03.yahoodns.net
+            Name: rc.yahoo.com
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 22
+            CNAME: src.g03.yahoodns.net
+        src.g03.yahoodns.net: type A, class IN, addr 74.6.50.150
+            Name: src.g03.yahoodns.net
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 4
+            Address: 74.6.50.150
+    [Retransmitted response. Original response in: 29]
+    [Retransmission: True]
+
+Frame 31: 73 bytes on wire (584 bits), 73 bytes captured (584 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:10.927392000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583110.927392000 seconds
+    [Time delta from previous captured frame: 5.637194000 seconds]
+    [Time delta from previous displayed frame: 5.637194000 seconds]
+    [Time since reference or first frame: 56.152047000 seconds]
+    Frame Number: 31
+    Frame Length: 73 bytes (584 bits)
+    Capture Length: 73 bytes (584 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 192.168.88.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 59
+    Identification: 0x5587 (21895)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xb350 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 192.168.88.2
+User Datagram Protocol, Src Port: 18171, Dst Port: 53
+    Source Port: 18171
+    Destination Port: 53
+    Length: 39
+    Checksum: 0x08f0 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (31 bytes)
+Domain Name System (query)
+    Transaction ID: 0xb694
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.yahoo.com: type A, class IN
+            Name: www.yahoo.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 32: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:10.931316000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583110.931316000 seconds
+    [Time delta from previous captured frame: 0.003924000 seconds]
+    [Time delta from previous displayed frame: 0.003924000 seconds]
+    [Time since reference or first frame: 56.155971000 seconds]
+    Frame Number: 32
+    Frame Length: 132 bytes (1056 bits)
+    Capture Length: 132 bytes (1056 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.2, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 118
+    Identification: 0x5c9f (23711)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xabfd [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.2
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 18171
+    Source Port: 53
+    Destination Port: 18171
+    Length: 98
+    Checksum: 0x7fe4 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 0.003924000 seconds]
+        [Time since previous frame: 0.003924000 seconds]
+    UDP payload (90 bytes)
+Domain Name System (response)
+    Transaction ID: 0xb694
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.yahoo.com: type A, class IN
+            Name: www.yahoo.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.yahoo.com: type CNAME, class IN, cname fd-fp3.wg1.b.yahoo.com
+            Name: www.yahoo.com
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 15
+            CNAME: fd-fp3.wg1.b.yahoo.com
+        fd-fp3.wg1.b.yahoo.com: type A, class IN, addr 98.139.183.24
+            Name: fd-fp3.wg1.b.yahoo.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 4
+            Address: 98.139.183.24
+        fd-fp3.wg1.b.yahoo.com: type A, class IN, addr 98.139.180.149
+            Name: fd-fp3.wg1.b.yahoo.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 4
+            Address: 98.139.180.149
+    [Request In: 31]
+    [Time: 0.003924000 seconds]
+
+Frame 33: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:10.941750000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583110.941750000 seconds
+    [Time delta from previous captured frame: 0.010434000 seconds]
+    [Time delta from previous displayed frame: 0.010434000 seconds]
+    [Time since reference or first frame: 56.166405000 seconds]
+    Frame Number: 33
+    Frame Length: 102 bytes (816 bits)
+    Capture Length: 102 bytes (816 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.2, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 88
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x48ba [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.2
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 18171
+    Source Port: 53
+    Destination Port: 18171
+    Length: 68
+    Checksum: 0xf570 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 0.014358000 seconds]
+        [Time since previous frame: 0.010434000 seconds]
+    UDP payload (60 bytes)
+Domain Name System (response)
+    Transaction ID: 0xb694
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 32]
+            [DNS response retransmission. Original response in frame 32]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.yahoo.com: type A, class IN
+            Name: www.yahoo.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.yahoo.com: type A, class IN, addr 127.0.1.1
+            Name: www.yahoo.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Retransmitted response. Original response in: 32]
+    [Retransmission: True]
+
+Frame 34: 73 bytes on wire (584 bits), 73 bytes captured (584 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:13.319494000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583113.319494000 seconds
+    [Time delta from previous captured frame: 2.377744000 seconds]
+    [Time delta from previous displayed frame: 2.377744000 seconds]
+    [Time since reference or first frame: 58.544149000 seconds]
+    Frame Number: 34
+    Frame Length: 73 bytes (584 bits)
+    Capture Length: 73 bytes (584 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 192.168.88.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 59
+    Identification: 0x5699 (22169)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xb23e [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 192.168.88.2
+User Datagram Protocol, Src Port: 39991, Dst Port: 53
+    Source Port: 39991
+    Destination Port: 53
+    Length: 39
+    Checksum: 0xc238 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 11]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (31 bytes)
+Domain Name System (query)
+    Transaction ID: 0xa80f
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.yahoo.com: type A, class IN
+            Name: www.yahoo.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 35: 132 bytes on wire (1056 bits), 132 bytes captured (1056 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:13.323747000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583113.323747000 seconds
+    [Time delta from previous captured frame: 0.004253000 seconds]
+    [Time delta from previous displayed frame: 0.004253000 seconds]
+    [Time since reference or first frame: 58.548402000 seconds]
+    Frame Number: 35
+    Frame Length: 132 bytes (1056 bits)
+    Capture Length: 132 bytes (1056 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.2, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 118
+    Identification: 0x5ca0 (23712)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xabfc [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.2
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 39991
+    Source Port: 53
+    Destination Port: 39991
+    Length: 98
+    Checksum: 0x392d [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 11]
+    [Timestamps]
+        [Time since first frame: 0.004253000 seconds]
+        [Time since previous frame: 0.004253000 seconds]
+    UDP payload (90 bytes)
+Domain Name System (response)
+    Transaction ID: 0xa80f
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.yahoo.com: type A, class IN
+            Name: www.yahoo.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.yahoo.com: type CNAME, class IN, cname fd-fp3.wg1.b.yahoo.com
+            Name: www.yahoo.com
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 15
+            CNAME: fd-fp3.wg1.b.yahoo.com
+        fd-fp3.wg1.b.yahoo.com: type A, class IN, addr 98.139.183.24
+            Name: fd-fp3.wg1.b.yahoo.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 4
+            Address: 98.139.183.24
+        fd-fp3.wg1.b.yahoo.com: type A, class IN, addr 98.139.180.149
+            Name: fd-fp3.wg1.b.yahoo.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 4
+            Address: 98.139.180.149
+    [Request In: 34]
+    [Time: 0.004253000 seconds]
+
+Frame 36: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:13.331891000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583113.331891000 seconds
+    [Time delta from previous captured frame: 0.008144000 seconds]
+    [Time delta from previous displayed frame: 0.008144000 seconds]
+    [Time since reference or first frame: 58.556546000 seconds]
+    Frame Number: 36
+    Frame Length: 102 bytes (816 bits)
+    Capture Length: 102 bytes (816 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.2, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 88
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x48ba [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.2
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 39991
+    Source Port: 53
+    Destination Port: 39991
+    Length: 68
+    Checksum: 0xaeb9 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 11]
+    [Timestamps]
+        [Time since first frame: 0.012397000 seconds]
+        [Time since previous frame: 0.008144000 seconds]
+    UDP payload (60 bytes)
+Domain Name System (response)
+    Transaction ID: 0xa80f
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 35]
+            [DNS response retransmission. Original response in frame 35]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.yahoo.com: type A, class IN
+            Name: www.yahoo.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.yahoo.com: type A, class IN, addr 127.0.1.1
+            Name: www.yahoo.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Retransmitted response. Original response in: 35]
+    [Retransmission: True]
+
+Frame 37: 75 bytes on wire (600 bits), 75 bytes captured (600 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:21.990000000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583121.990000000 seconds
+    [Time delta from previous captured frame: 8.658109000 seconds]
+    [Time delta from previous displayed frame: 8.658109000 seconds]
+    [Time since reference or first frame: 67.214655000 seconds]
+    Frame Number: 37
+    Frame Length: 75 bytes (600 bits)
+    Capture Length: 75 bytes (600 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 192.168.88.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 61
+    Identification: 0x5de9 (24041)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xaaec [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 192.168.88.2
+User Datagram Protocol, Src Port: 27298, Dst Port: 53
+    Source Port: 27298
+    Destination Port: 53
+    Length: 41
+    Checksum: 0xde2d [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 12]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (33 bytes)
+Domain Name System (query)
+    Transaction ID: 0x4633
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.youtube.com: type A, class IN
+            Name: www.youtube.com
+            [Name Length: 15]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 38: 125 bytes on wire (1000 bits), 125 bytes captured (1000 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:21.994265000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583121.994265000 seconds
+    [Time delta from previous captured frame: 0.004265000 seconds]
+    [Time delta from previous displayed frame: 0.004265000 seconds]
+    [Time since reference or first frame: 67.218920000 seconds]
+    Frame Number: 38
+    Frame Length: 125 bytes (1000 bits)
+    Capture Length: 125 bytes (1000 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.2, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 111
+    Identification: 0x5ca1 (23713)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xac02 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.2
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 27298
+    Source Port: 53
+    Destination Port: 27298
+    Length: 91
+    Checksum: 0x73c0 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 12]
+    [Timestamps]
+        [Time since first frame: 0.004265000 seconds]
+        [Time since previous frame: 0.004265000 seconds]
+    UDP payload (83 bytes)
+Domain Name System (response)
+    Transaction ID: 0x4633
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.youtube.com: type A, class IN
+            Name: www.youtube.com
+            [Name Length: 15]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.youtube.com: type CNAME, class IN, cname youtube-ui.l.google.com
+            Name: www.youtube.com
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 22
+            CNAME: youtube-ui.l.google.com
+        youtube-ui.l.google.com: type A, class IN, addr 172.217.3.14
+            Name: youtube-ui.l.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 5 (5 seconds)
+            Data length: 4
+            Address: 172.217.3.14
+    [Request In: 37]
+    [Time: 0.004265000 seconds]
+
+Frame 39: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:22.000316000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583122.000316000 seconds
+    [Time delta from previous captured frame: 0.006051000 seconds]
+    [Time delta from previous displayed frame: 0.006051000 seconds]
+    [Time since reference or first frame: 67.224971000 seconds]
+    Frame Number: 39
+    Frame Length: 106 bytes (848 bits)
+    Capture Length: 106 bytes (848 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.2, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 92
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x48b6 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.2
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 27298
+    Source Port: 53
+    Destination Port: 27298
+    Length: 72
+    Checksum: 0x5233 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 12]
+    [Timestamps]
+        [Time since first frame: 0.010316000 seconds]
+        [Time since previous frame: 0.006051000 seconds]
+    UDP payload (64 bytes)
+Domain Name System (response)
+    Transaction ID: 0x4633
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 38]
+            [DNS response retransmission. Original response in frame 38]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.youtube.com: type A, class IN
+            Name: www.youtube.com
+            [Name Length: 15]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.youtube.com: type A, class IN, addr 127.0.1.1
+            Name: www.youtube.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Retransmitted response. Original response in: 38]
+    [Retransmission: True]
+
+Frame 40: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:38.062931000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583138.062931000 seconds
+    [Time delta from previous captured frame: 16.062615000 seconds]
+    [Time delta from previous displayed frame: 16.062615000 seconds]
+    [Time since reference or first frame: 83.287586000 seconds]
+    Frame Number: 40
+    Frame Length: 78 bytes (624 bits)
+    Capture Length: 78 bytes (624 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_44:e5:66 (00:0c:29:44:e5:66), Dst: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+    Destination: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.135, Dst: 8.8.8.8
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 64
+    Identification: 0x9dd4 (40404)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xb399 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.88.135
+    Destination Address: 8.8.8.8
+User Datagram Protocol, Src Port: 42831, Dst Port: 53
+    Source Port: 42831
+    Destination Port: 53
+    Length: 44
+    Checksum: 0x2265 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 13]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (36 bytes)
+Domain Name System (query)
+    Transaction ID: 0x8bd5
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.stonybrook.edu: type A, class IN
+            Name: www.stonybrook.edu
+            [Name Length: 18]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 41: 112 bytes on wire (896 bits), 112 bytes captured (896 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:38.073974000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583138.073974000 seconds
+    [Time delta from previous captured frame: 0.011043000 seconds]
+    [Time delta from previous displayed frame: 0.011043000 seconds]
+    [Time since reference or first frame: 83.298629000 seconds]
+    Frame Number: 41
+    Frame Length: 112 bytes (896 bits)
+    Capture Length: 112 bytes (896 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_82:7c:24 (00:0c:29:82:7c:24), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        Address: VMware_82:7c:24 (00:0c:29:82:7c:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 98
+    Identification: 0x0001 (1)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x514b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 42831
+    Source Port: 53
+    Destination Port: 42831
+    Length: 78
+    Checksum: 0x9f0b [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 13]
+    [Timestamps]
+        [Time since first frame: 0.011043000 seconds]
+        [Time since previous frame: 0.011043000 seconds]
+    UDP payload (70 bytes)
+Domain Name System (response)
+    Transaction ID: 0x8bd5
+    Flags: 0x8400 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...0 .... .... = Recursion desired: Don't do query recursively
+        .... .... 0... .... = Recursion available: Server can't do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.stonybrook.edu: type A, class IN
+            Name: www.stonybrook.edu
+            [Name Length: 18]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.stonybrook.edu: type A, class IN, addr 127.0.1.1
+            Name: www.stonybrook.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 120 (2 minutes)
+            Data length: 4
+            Address: 127.0.1.1
+    [Request In: 40]
+    [Time: 0.011043000 seconds]
+
+Frame 42: 108 bytes on wire (864 bits), 108 bytes captured (864 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May  7, 2016 06:35:38.084234000 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1462583138.084234000 seconds
+    [Time delta from previous captured frame: 0.010260000 seconds]
+    [Time delta from previous displayed frame: 0.010260000 seconds]
+    [Time since reference or first frame: 83.308889000 seconds]
+    Frame Number: 42
+    Frame Length: 108 bytes (864 bits)
+    Capture Length: 108 bytes (864 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: VMware_f5:0b:f8 (00:50:56:f5:0b:f8), Dst: VMware_44:e5:66 (00:0c:29:44:e5:66)
+    Destination: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        Address: VMware_44:e5:66 (00:0c:29:44:e5:66)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        Address: VMware_f5:0b:f8 (00:50:56:f5:0b:f8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 192.168.88.135
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 94
+    Identification: 0x5ca2 (23714)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0xb4ad [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 8.8.8.8
+    Destination Address: 192.168.88.135
+User Datagram Protocol, Src Port: 53, Dst Port: 42831
+    Source Port: 53
+    Destination Port: 42831
+    Length: 74
+    Checksum: 0xd70f [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 13]
+    [Timestamps]
+        [Time since first frame: 0.021303000 seconds]
+        [Time since previous frame: 0.010260000 seconds]
+    UDP payload (66 bytes)
+Domain Name System (response)
+    Transaction ID: 0x8bd5
+        [Expert Info (Warning/Protocol): DNS response retransmission. Original response in frame 41]
+            [DNS response retransmission. Original response in frame 41]
+            [Severity level: Warning]
+            [Group: Protocol]
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.stonybrook.edu: type A, class IN
+            Name: www.stonybrook.edu
+            [Name Length: 18]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.stonybrook.edu: type CNAME, class IN, cname stonybrook.edu
+            Name: www.stonybrook.edu
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 802 (13 minutes, 22 seconds)
+            Data length: 2
+            CNAME: stonybrook.edu
+        stonybrook.edu: type A, class IN, addr 129.49.2.176
+            Name: stonybrook.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 855 (14 minutes, 15 seconds)
+            Data length: 4
+            Address: 129.49.2.176
+    [Retransmitted response. Original response in: 41]
+    [Retransmission: True]
+
